@@ -382,7 +382,7 @@ box-sizing:content-box; line-height:normal;}
 .w3-main{transition:margin-left 0s;min-width:330px;}
 /*&quot;nullstilling&quot; slutt*/
 @media (min-width:1675px) {
-#main {width:100%;justify-content: center;text-align: center;}
+#main {/*! width:100%; */justify-content: center;text-align: center;}
 #right {width:21%}
 }
 @media (max-width:600px) {
