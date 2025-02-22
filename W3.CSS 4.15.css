@@ -994,13 +994,6 @@ hr {margin:20px -16px;}
 @media screen and (max-width:600px) {
 .w3-example, #w3-exerciseform {margin-left:-32px;margin-right:-32px;border-radius:0}
 }
-/*@media only screen and (max-device-width: 480px) {*/
-@media only screen and (max-width: 500px) {
-#main {padding:24px;padding:16px}
-h1 {font-size:30px;}
-h2 {font-size:25px;}
-.w3-example {padding:8px 16px;margin: 24px -16px;}
-#w3-exerciseform {padding: 8px 16px 16px 16px;margin: 24px -16px;}
 /*.w3-panel,.w3-info {*/
 .w3-note,.w3-info,.w3-warning {margin-left:-16px;margin-right:-16px;padding-left:16px!important;padding-right:16px!important;}
 }
