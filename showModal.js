@@ -25,6 +25,6 @@
       $('#loadingTonton').empty();
       $('#loadingTonton').append('Memuat vedio...');
       $('#tontonContent').empty();
-      $('#tontonContent').append('<a id="tontonContent" href="'+video+'" rel="nofollow">UNDUH</a>');
+      $('#tontonContent').append('<iframe id="iframe" class="responsive-iframe"  href="'+video+'&apos;,containment:&apos;body&apos;,autoPlay:true, mute:true, startAt:0, opacity:1" ></iframe>');
       $('#tonton').one('load', function(){$('#loadingTonton').empty();});       
     }
