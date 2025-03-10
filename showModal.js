@@ -13,7 +13,7 @@
       $('#loadingIframe').empty();
       $('#loadingIframe').append('Memuat document...');
       $('#iframeContent').empty();
-      $('#iframeContent').append('<iframe id="iframe" class="responsive-iframe"  src="'+url+'?usp=drivesdk" width="1600" height="900" frameborder="0"></iframe>');
+      $('#iframeContent').append('<iframe id="iframe" class="responsive-iframe"  src="'+video+'?usp=drivesdk" width="1600" height="900" frameborder="0"></iframe>');
       $('#iframe').one('load', function(){$('#loadingIframe').empty();});
       
       $('#loadingUnduh').empty();
